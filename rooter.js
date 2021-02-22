@@ -4,7 +4,6 @@ let rooter = {
     prepareData : function(obj) {
         let indexPoint = obj.pathname.indexOf(".");
         let extension = obj.pathname.substring(indexPoint, obj.pathname.length);
-        // let files = ;
     
         let data = {
             contentType: "",
@@ -29,11 +28,11 @@ let rooter = {
             break;
             case ".png" :
                 data.contentType = "image/png";
-                data.folder = "assets";
+                data.folder = "assets/";
             break;
             case ".jpg" :
                 data.contentType = "image/jpeg";
-                data.folder = "assets";
+                data.folder = "assets/";
             break;
             default : console.log("Erreur");
         }
