@@ -1,6 +1,4 @@
 let rooter = {
-
-
     prepareData : function(obj) {
         let indexPoint = obj.pathname.indexOf(".");
         let extension = obj.pathname.substring(indexPoint, obj.pathname.length);

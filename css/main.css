@@ -1,14 +1,48 @@
+/* grey : 3b3734 */
+/* green : 84b925 */
+
 * {
     margin: 0;
     padding: 0;
 }
 
-#container {
+#headerLink {
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
-#container img {
-    margin-top: 100px;
+#divLink {
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#divLink a {
+    background-color: #3b3734;
+    color: #ffffff;
+    border: 2px solid #3b3734;
+    padding: 10px 20px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+#divLink a:hover, a:active {
+    background-color: #84b925;
+    border: 2px solid #84b925;
+    color: #3b3734;
+}
+
+
+#divContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#divContent img {
+    margin-top: 60px;
 }
